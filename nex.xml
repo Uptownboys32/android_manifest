@@ -11,4 +11,11 @@
    <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="nex" revision="10" />
    <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nex" revision="10" />
    <project path="ota" name="ota" remote="nex" revision="nos" />
+
+    <!-- rolex -->
+    <project path="kernel/xiaomi/msm8917" name="Triton_kernel_xiaomi_msm8917" remote="nex" revision="tr-10-caf" />
+    <project path="device/xiaomi/rolex" name="android10_device_xiaomi_rolex" remote="nex" revision="nos-q" />
+    <project path="vendor/xiaomi" name="android10_rolex_vendor_xiaomi" remote="nex" revision="lineage-17.1" />
+
+
 </manifest>
