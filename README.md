@@ -24,7 +24,9 @@ GIT config (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/nitrogen-project/android_manifest.git -b 10
+    repo init -u https://github.com/Thagoo/android_manifest.git -b 10
+                        #or shallow clone
+    repo init -u https://github.com/Thagoo/android_manifest.git -b 10 --depth=1
 
 Then to sync up:
 ----------------
@@ -34,7 +36,7 @@ Then to sync up:
 Build command is
 ----------------
     . build/envsetup.sh
-    lunch nitrogen_oneplus3-userdebug
+    lunch nitrogen_rolex-userdebug
     make -j 7 otapackage
 
 Official supported Devices
