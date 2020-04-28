@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    
+   <remote name="nex"
+      fetch="https://github.com/Thagoo"
+      sync-j="16" />
+
+   <!--extends-->
+   <project path="frameworks/base" name="android_frameworks_base" remote="nex" revision="10" />
+   <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nex" revision="10" />
+   <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="nex" revision="10" />
+   <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nex" revision="10" />
+   <project path="ota" name="ota" remote="nex" revision="nos" />
+</manifest>

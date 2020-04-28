@@ -789,4 +789,7 @@
 
   <!-- Add all tracked Nitrogen repos -->
   <include name="nos.xml" />
+
+  <!-- Add all tracked extends repos -->
+  <include name="nex.xml" />
 </manifest>
