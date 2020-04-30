@@ -57,9 +57,6 @@
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="10" />
 
     <!-- caf -->
-    <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="nos" revision="10-caf-8996"/>
-    <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="nos" revision="10-caf-8996"/>
-    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="nos" revision="10-caf-8996"/>
     <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="nos" revision="10-caf" />
     <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="nos" revision="10-caf" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="10" />
@@ -102,7 +99,6 @@
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="10" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nos" revision="10" />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="nos" revision="10" />
-    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nos" revision="10" />
     <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="10" />
     <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="nos" revision="10" />
 </manifest>
