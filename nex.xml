@@ -23,6 +23,10 @@
    <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="nex" revision="10" />
    <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nex" revision="10" />
    <project path="ota" name="ota" remote="nex" revision="nos" />
+   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="nex" revision="10" />
+   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="nex" revision="10" />
+    <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="nex" revision="10" />
+
 
    <!-- hardware -->
     <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom-caf_audio" remote="nex" revision="10"/>
@@ -33,8 +37,8 @@
 
        <!-- rolex -->
     <project path="kernel/xiaomi/msm8917" name="Triton_kernel_xiaomi_msm8917" remote="nex" revision="tr-10-caf" />
-    <project path="device/xiaomi/rolex" name="android10_device_xiaomi_rolex" remote="nex" revision="nos-q" />
-    <project path="vendor/xiaomi" name="android10_rolex_vendor_xiaomi" remote="nex" revision="lineage-17.1" />
+    <project path="device/xiaomi/rolex" name="android_device_xiaomi_rolex" remote="nex" revision="nos-q" />
+    <project path="vendor/xiaomi" name="android_rolex_vendor_xiaomi" remote="nex" revision="lineage-17.1" />
 
 
 </manifest>
